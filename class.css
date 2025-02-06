@@ -1,0 +1,33 @@
+.div-header {
+    align-items: center;
+}
+
+.section-one {
+    margin-block: 2rem;
+    display: block;
+}
+
+.div-icons {
+    display: block;
+}
+
+
+
+@media (width >= 80rem) {
+    .div-icons {
+        position: relative;
+        right: 100px;
+    }
+
+    .section-one {
+        margin-block: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Mapin {
+        width: 24px;
+        height: 24px;
+    }
+}
